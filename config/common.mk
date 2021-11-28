@@ -40,17 +40,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.opa.eligible_device=true
 
-# Google legal
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
-    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
-
-# Google Play services configuration
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.com.google.clientidbase=android-google \
-    ro.error.receiver.system.apps=com.google.android.gms \
-    ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
-
 # CarrierSetup configuration
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.carriersetup.vzw_consent_page=true
